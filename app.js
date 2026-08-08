@@ -157,7 +157,7 @@ function renderDirectory() {
                           return `
                             <button class="lesson-item ${active ? 'is-active' : ''} ${isFeatured ? 'is-featured' : ''}" data-lesson="${lesson.number}" type="button">
                               <span class="lesson-index">${String(lesson.number).padStart(3, '0')}</span>
-                              <span class="lesson-name">${escapeHtml(lesson.title)}</span>
+                              <span class="lesson-copy"><span class="lesson-name">${escapeHtml(lesson.title)}</span><span class="lesson-subtitle">${escapeHtml(lesson.unitTitle)}</span></span>
                               ${isFeatured ? '<span class="lesson-mark" title="代表性完整课程">●</span>' : ''}
                             </button>`;
                         })
@@ -329,11 +329,19 @@ function setReaderState(lesson, content) {
   meta.innerHTML = `<span>${escapeHtml(lesson.kindLabel || lesson.kind)}</span><span>${state.featured.has(lesson.number) ? '完整示范课' : '课程骨架课'}</span>`;
   goal.textContent = featured?.goal || '先把事实、结构与假设分开，再决定自己还需要什么证据。';
   quote.textContent = featured?.quote || '每一课都从价格行为出发，回到可解释的判断。';
-  image.src = lesson.visual;
-  image.alt = `${lesson.title}原创示意图`;
-  $('#hero-image').src = lesson.visual;
-  $('#hero-image').alt = `${lesson.title}原创示意图`;
-  $('#hero-visual-label').textContent = `Lesson ${padLesson(lesson.number)}`;
+  if (image) {
+    image.src = lesson.visual;
+    image.alt = `${lesson.title}原创示意图`;
+  }
+  const heroImage = $('#hero-image');
+  if (heroImage) {
+    heroImage.src = lesson.visual;
+    heroImage.alt = `${lesson.title}原创示意图`;
+  }
+  const heroVisualLabel = $('#hero-visual-label');
+  if (heroVisualLabel) heroVisualLabel.textContent = padLesson(lesson.number);
+  const currentCardTitle = $('#current-card-title');
+  if (currentCardTitle) currentCardTitle.textContent = lesson.title;
   markdownLink.href = lesson.file;
   status.textContent = '已加载';
   counter.textContent = `${String(lesson.number).padStart(3, '0')} / 172`;
