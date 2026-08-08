@@ -51,6 +51,32 @@ function getLesson(number) {
   return state.lessons.find((lesson) => lesson.number === Number(number));
 }
 
+function getEmbeddedBundle() {
+  const bundle = window.COURSE_BUNDLE;
+  if (!bundle?.manifest || !Array.isArray(bundle.featured) || !bundle.lessons) return null;
+  return bundle;
+}
+
+async function loadCourseData() {
+  const embedded = getEmbeddedBundle();
+  if (window.location.protocol === 'file:' && embedded) return embedded;
+
+  try {
+    const [manifestResponse, featuredResponse] = await Promise.all([
+      fetch('data/lessons.json'),
+      fetch('data/featured-lessons.json'),
+    ]);
+    if (!manifestResponse.ok || !featuredResponse.ok) throw new Error('课程数据未找到');
+    return {
+      manifest: await manifestResponse.json(),
+      featured: await featuredResponse.json(),
+    };
+  } catch (error) {
+    if (embedded) return embedded;
+    throw error;
+  }
+}
+
 function getFilteredLessons() {
   const query = state.query.trim().toLowerCase();
   return state.lessons.filter((lesson) => {
@@ -326,13 +352,24 @@ async function loadLesson(number) {
   const status = $('#lesson-status');
   status.textContent = '读取中…';
   try {
-    const response = await fetch(lesson.file);
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const markdown = await response.text();
+    const embedded = getEmbeddedBundle();
+    let markdown = null;
+    if (window.location.protocol === 'file:' && typeof embedded?.lessons?.[padLesson(lesson.number)] === 'string') {
+      markdown = embedded.lessons[padLesson(lesson.number)];
+    } else {
+      try {
+        const response = await fetch(lesson.file);
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        markdown = await response.text();
+      } catch (error) {
+        if (typeof embedded?.lessons?.[padLesson(lesson.number)] !== 'string') throw error;
+        markdown = embedded.lessons[padLesson(lesson.number)];
+      }
+    }
     setReaderState(lesson, markdownToHtml(markdown, lesson));
   } catch (error) {
     status.textContent = '读取失败';
-    $('#lesson-content').innerHTML = `<div class="error-state"><strong>这节课暂时无法打开</strong><span>${escapeHtml(error.message)}。请通过本地服务器打开项目，而不是直接双击 HTML 文件。</span></div>`;
+    $('#lesson-content').innerHTML = `<div class="error-state"><strong>这节课暂时无法打开</strong><span>${escapeHtml(error.message)}。请确认 data/course-bundle.js 存在，或使用 README 中的本地服务器方式打开。</span></div>`;
   } finally {
     state.loading = false;
   }
@@ -396,13 +433,9 @@ function bindControls() {
 
 async function boot() {
   try {
-    const [manifestResponse, featuredResponse] = await Promise.all([
-      fetch('data/lessons.json'),
-      fetch('data/featured-lessons.json'),
-    ]);
-    if (!manifestResponse.ok || !featuredResponse.ok) throw new Error('课程数据未找到');
-    state.manifest = await manifestResponse.json();
-    const featured = await featuredResponse.json();
+    const courseData = await loadCourseData();
+    state.manifest = courseData.manifest;
+    const featured = courseData.featured;
     state.lessons = flattenManifest(state.manifest);
     state.featured = new Map(featured.map((lesson) => [lesson.number, lesson]));
 
@@ -417,7 +450,7 @@ async function boot() {
     const status = $('#lesson-status');
     if (status) status.textContent = '初始化失败';
     const content = $('#lesson-content');
-    if (content) content.innerHTML = `<div class="error-state"><strong>课程目录暂时无法读取</strong><span>${escapeHtml(error.message)}。请使用 README 中的本地服务器方式打开。</span></div>`;
+    if (content) content.innerHTML = `<div class="error-state"><strong>课程目录暂时无法读取</strong><span>${escapeHtml(error.message)}。请确认 data/course-bundle.js 存在，或使用 README 中的本地服务器方式打开。</span></div>`;
   }
 }
 

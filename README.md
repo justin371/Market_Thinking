@@ -13,7 +13,8 @@
 ├── styles.css                 # 顶层阅读界面
 ├── data/
 │   ├── lessons.json           # 172 课 manifest
-│   └── featured-lessons.json  # 已完整填充的代表课内容
+│   ├── featured-lessons.json  # 已完整填充的代表课内容
+│   └── course-bundle.js       # 自动生成，支持双击 index.html 直接打开
 ├── lessons/
 │   ├── 001/
 │   │   ├── lesson.md          # 每课唯一内容源
@@ -26,15 +27,25 @@
 
 每一课都是独立目录。顶层页面只读取 `data/lessons.json`，再按课号请求 `lessons/NNN/lesson.md` 和 `lessons/NNN/visual.svg`。这让课程可以逐课编辑、审阅和替换图片，也方便以后从 Markdown 生成 PDF、PPT 或教师手册。
 
-## 本地运行
+## 打开方式
 
-`fetch()` 需要 HTTP 环境。Windows PowerShell：
+可以直接双击 `index.html`，课程目录和课程内容会从自动生成的 `data/course-bundle.js` 读取，不需要先启动服务器。
+
+如果要编辑 Markdown 并实时检查源文件，也可以使用 HTTP 方式：
 
 ```powershell
 python -m http.server 8000
 ```
 
 然后打开 <http://127.0.0.1:8000/>。
+
+修改课程内容后运行：
+
+```powershell
+.\tools\generate_lessons.ps1
+```
+
+这个脚本会同时更新每课文件和 `data/course-bundle.js`。Markdown 仍然是课程源文件，bundle 只是为了兼容 `file://` 直接打开而生成的阅读缓存。
 
 ## 课程内容约定
 

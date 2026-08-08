@@ -208,4 +208,18 @@ foreach ($lesson in $flatLessons | Sort-Object number) {
   Set-Content -Path (Join-Path $folder 'visual.svg') -Value (New-Visual $lesson.number $lesson.title (Get-VisualType $lesson)) -Encoding utf8
 }
 
-Write-Output "Generated $($flatLessons.Count) lesson folders under $root\lessons"
+$embeddedLessons = [ordered]@{}
+foreach ($lesson in $flatLessons | Sort-Object number) {
+  $key = '{0:D3}' -f $lesson.number
+  $embeddedLessons[$key] = Get-Content -Raw (Join-Path $root ('lessons\{0:D3}\lesson.md' -f $lesson.number))
+}
+$bundle = [ordered]@{
+  manifest = $manifest
+  featured = @($featuredList)
+  lessons = $embeddedLessons
+}
+$bundleJson = $bundle | ConvertTo-Json -Depth 30 -Compress
+$bundlePath = Join-Path $root 'data\course-bundle.js'
+Set-Content -Path $bundlePath -Value "window.COURSE_BUNDLE = $bundleJson;" -Encoding utf8
+
+Write-Output "Generated $($flatLessons.Count) lesson folders and file:// bundle under $root"
