@@ -157,7 +157,7 @@ function renderDirectory() {
                           return `
                             <button class="lesson-item ${active ? 'is-active' : ''} ${isFeatured ? 'is-featured' : ''}" data-lesson="${lesson.number}" type="button">
                               <span class="lesson-index">${String(lesson.number).padStart(3, '0')}</span>
-                              <span class="lesson-copy"><span class="lesson-name">${escapeHtml(lesson.title)}</span><span class="lesson-subtitle">${escapeHtml(lesson.unitTitle)}</span></span>
+                              <span class="lesson-name">${escapeHtml(lesson.title)}</span>
                               ${isFeatured ? '<span class="lesson-mark" title="代表性完整课程">●</span>' : ''}
                             </button>`;
                         })
