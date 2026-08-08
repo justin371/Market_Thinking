@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Market Thinking / Price Action：面向10—16岁青少年的市场思维课程">
+  <title>Market Thinking / Price Action</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="prototype-badge">MARKET THINKING · COURSE REPO</div>
+  <header class="topbar">
+    <a href="#top" class="brand" aria-label="Market Thinking 首页">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span>Market / Thinking</span>
+    </a>
+    <nav class="topnav" aria-label="页面导航">
+      <a href="#reader">正在阅读</a>
+      <a href="#curriculum">172课目录</a>
+      <a href="sources/image-credits.md">图片来源</a>
+    </nav>
+    <div class="top-actions">
+      <button class="button subtle" data-random>随机一课 ↗</button>
+      <a class="button primary" href="README.md">阅读 README</a>
+    </div>
+  </header>
+
+  <main id="top" class="site-shell">
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">10—16 岁 · Markdown-first curriculum</span>
+        <h1>读懂价格，<br><em>读懂世界。</em></h1>
+        <p class="hero-lede">Price Action 是课程主体。我们从K线、趋势、回调、突破、震荡区间与反转出发，再把同一套观察方法迁移到生活、历史、商业、体育和 AI 协作。</p>
+        <div class="hero-actions"><a class="button primary" href="#reader" data-start="44">从第44课开始 ↗</a><a class="button outline" href="#curriculum">打开课程地图</a></div>
+        <div class="hero-stats"><div><strong id="stat-total">172</strong><span>总课数</span></div><div><strong id="stat-core">62%</strong><span>PA + 决策核心</span></div><div><strong id="stat-featured">14</strong><span>代表课已填充</span></div></div>
+      </div>
+      <div class="hero-visual"><div class="visual-label"><span>Featured visual / 视觉优先</span><span id="hero-visual-label">Lesson 044</span></div><img id="hero-image" src="lessons/044/visual.svg" alt="第44课假突破示意图"><div class="visual-caption"><strong>Trading Range</strong><span>先看上下文，再看突破是否被接受。</span></div></div>
+    </section>
+
+    <section id="reader" class="reader-layout">
+      <aside class="sidebar">
+        <div class="sidebar-card method-card"><span class="eyebrow">Learning contract</span><h2>每课都要留下证据。</h2><ul><li>一张主图，文字只负责解释和提问。</li><li>生活 / 历史 / 市场三层案例。</li><li>没有标准答案，必须说出反例。</li><li>Markdown 是源文件，HTML 是阅读出口。</li></ul></div>
+        <div class="sidebar-card search-card"><label for="lesson-search" class="eyebrow">Find a lesson</label><div class="search-box"><span>⌕</span><input id="lesson-search" type="search" placeholder="搜索课号、关键词…"></div><div class="filters" role="group" aria-label="课程筛选"><button class="filter active" data-filter="all">全部</button><button class="filter" data-filter="price-action">Price Action</button><button class="filter" data-filter="decision">概率 / 风险</button><button class="filter" data-filter="transfer">迁移 / 项目</button><button class="filter" data-filter="ai">AI / 复盘</button></div></div>
+        <div class="sidebar-card progress-card"><div class="card-heading"><h3>阅读进度</h3><span id="progress-text">1 / 172</span></div><div class="progress"><i id="progress-bar"></i></div><p>进度只保存在当前浏览器标签页，不写入仓库。</p></div>
+        <div class="sidebar-card reference-card"><span class="eyebrow">Reference stack</span><h3>吸收核心，重新编排。</h3><p>Al Brooks 的三本书与视频课程是 Price Action 的重要专业参考，但不照搬原书章节、书页或交易训练。</p><a href="sources/image-credits.md">查看来源与许可 →</a></div>
+      </aside>
+
+      <section class="reader">
+        <div class="reader-header"><div><span class="eyebrow" id="reader-kicker">Price Action · 突破与失败</span><h2 id="reader-title">假突破</h2><p id="reader-meta">第44课 · 载入 Markdown 内容…</p></div><div class="reader-controls"><button class="round-button" data-prev aria-label="上一课">←</button><button class="round-button" data-next aria-label="下一课">→</button></div></div>
+        <div class="lesson-hero"><div class="lesson-visual"><img id="lesson-image" src="lessons/044/visual.svg" alt="课程图形"></div><div class="lesson-summary"><span class="summary-label">本课的第一句话</span><p id="lesson-goal">正在读取 lesson.md…</p><div class="quote" id="lesson-quote">“突破是一条假设；跟进才是后续证据。”</div><div class="lesson-links"><a id="lesson-markdown" href="lessons/044/lesson.md">打开 Markdown</a><span id="lesson-status">featured lesson</span></div></div></div>
+        <article id="lesson-content" class="markdown-reader" aria-live="polite"><p>正在从独立课程文件夹调取 lesson.md…</p></article>
+      </section>
+    </section>
+
+    <section id="curriculum" class="curriculum-section"><div class="section-heading"><div><span class="eyebrow">Full curriculum map</span><h2>172 课，一张可搜索的学习地图。</h2></div><p>目录按基础观察 → Price Action 主体 → 概率与风险 → 群体行为 → 现实迁移 → AI 协作 → 综合项目递进。点击任意课号，顶层页面会调取对应文件夹。</p></div><div id="curriculum-list" class="curriculum-list"><p class="loading">正在读取 data/lessons.json…</p></div></section>
+
+    <section class="source-section"><div class="source-copy"><span class="eyebrow">Single source of truth</span><h2>每课是一个小型研究空间。</h2><p>课程内容保存在独立目录中，图形和文字可以一起迭代。正式写作时，Markdown 负责内容，SVG / 图片负责视觉，顶层网页负责调取和导航。</p><div class="source-flow"><span>lesson.md</span><b>→</b><span>visual.svg</span><b>→</b><span>top page</span></div></div><div class="source-guard"><span class="eyebrow">Safety boundary</span><h3>市场是训练场，不是终点。</h3><p>课程不鼓励未成年人进行实盘投机，不提供保证盈利的信号，不把单次输赢作为学习评价。重点是事实、上下文、结构、概率、风险和复盘。</p><a href="README.md">阅读完整项目说明 →</a></div></section>
+  </main>
+  <footer class="footer"><strong>Market Thinking / Price Action</strong><span>172 lessons · Markdown-first · image credits included</span></footer>
+  <script src="app.js"></script>
+</body>
+</html>

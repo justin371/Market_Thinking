@@ -1,0 +1,5 @@
+.DS_Store
+Thumbs.db
+*.epub
+private-books/
+node_modules/

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-labelledby="title desc">
+  <title id="title">第77课：同一市场，不同图表</title>
+  <desc id="desc">原创课程示意图，视觉类型：multiframe。</desc>
+  <rect width="800" height="340" rx="22" fill="#fbfcfd"/>
+  <g opacity=".14" stroke="#18324b" stroke-width="1"><path d="M30 52H770 M30 112H770 M30 172H770 M30 232H770 M30 292H770"/><path d="M90 28V316 M190 28V316 M290 28V316 M390 28V316 M490 28V316 M590 28V316 M690 28V316"/></g>
+  <path d="M54 254L120 201L183 219L248 145L306 180L369 114L429 155L504 92L573 116L648 67L742 102" fill="none" stroke="#2f6df6" stroke-width="6" stroke-linecap="round"/><rect x="62" y="48" width="196" height="55" rx="12" fill="#eaf0ff"/><rect x="284" y="48" width="196" height="55" rx="12" fill="#fff5d8"/><rect x="506" y="48" width="196" height="55" rx="12" fill="#e5f6f2"/><text x="87" y="82" fill="#2f6df6" font-size="14" font-weight="900">大周期：背景</text><text x="310" y="82" fill="#936319" font-size="14" font-weight="900">中周期：结构</text><text x="532" y="82" fill="#087b70" font-size="14" font-weight="900">小周期：细节</text>
+  <text x="30" y="328" fill="#627285" font-size="12">Market Thinking · lesson 77 · multiframe</text>
+</svg>

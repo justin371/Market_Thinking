@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-labelledby="title desc">
+  <title id="title">第68课：抛物线楔形</title>
+  <desc id="desc">原创课程示意图，视觉类型：reversal。</desc>
+  <rect width="800" height="340" rx="22" fill="#fbfcfd"/>
+  <g opacity=".14" stroke="#18324b" stroke-width="1"><path d="M30 52H770 M30 112H770 M30 172H770 M30 232H770 M30 292H770"/><path d="M90 28V316 M190 28V316 M290 28V316 M390 28V316 M490 28V316 M590 28V316 M690 28V316"/></g>
+  <path d="M48 92L108 118L162 88L220 132L277 105L338 174L401 229L461 199L522 246L581 197L645 228L742 162" fill="none" stroke="#e35d53" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M338 174L401 229L461 199" fill="none" stroke="#2f6df6" stroke-width="6"/><circle cx="401" cy="229" r="10" fill="#fff" stroke="#f0b74f" stroke-width="5"/><text x="420" y="250" fill="#936319" font-size="15" font-weight="900">需要跟进</text>
+  <text x="30" y="328" fill="#627285" font-size="12">Market Thinking · lesson 68 · reversal</text>
+</svg>

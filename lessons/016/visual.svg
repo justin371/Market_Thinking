@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-labelledby="title desc">
+  <title id="title">第16课：趋势、震荡与突破</title>
+  <desc id="desc">原创课程示意图，视觉类型：states。</desc>
+  <rect width="800" height="340" rx="22" fill="#fbfcfd"/>
+  <g opacity=".14" stroke="#18324b" stroke-width="1"><path d="M30 52H770 M30 112H770 M30 172H770 M30 232H770 M30 292H770"/><path d="M90 28V316 M190 28V316 M290 28V316 M390 28V316 M490 28V316 M590 28V316 M690 28V316"/></g>
+  <rect x="63" y="76" width="194" height="184" rx="18" fill="#eaf0ff"/><rect x="303" y="76" width="194" height="184" rx="18" fill="#fff5d8"/><rect x="543" y="76" width="194" height="184" rx="18" fill="#e5f6f2"/><path d="M100 210L135 172L170 190L218 126M338 174H458M578 212L614 139L662 179L709 105" fill="none" stroke="#2f6df6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><text x="122" y="112" fill="#2f6df6" font-size="15" font-weight="900">趋势</text><text x="358" y="112" fill="#936319" font-size="15" font-weight="900">区间</text><text x="597" y="112" fill="#087b70" font-size="15" font-weight="900">突破</text>
+  <text x="30" y="328" fill="#627285" font-size="12">Market Thinking · lesson 16 · states</text>
+</svg>

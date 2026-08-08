@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-labelledby="title desc">
+  <title id="title">第120课：恐慌</title>
+  <desc id="desc">原创课程示意图，视觉类型：psychology。</desc>
+  <rect width="800" height="340" rx="22" fill="#fbfcfd"/>
+  <g opacity=".14" stroke="#18324b" stroke-width="1"><path d="M30 52H770 M30 112H770 M30 172H770 M30 232H770 M30 292H770"/><path d="M90 28V316 M190 28V316 M290 28V316 M390 28V316 M490 28V316 M590 28V316 M690 28V316"/></g>
+  <path d="M54 252C132 112 218 112 296 252S460 392 538 252S662 112 742 252" fill="none" stroke="#e35d53" stroke-width="7" stroke-linecap="round"/><path d="M54 270H742" stroke="#2f6df6" stroke-width="3" stroke-dasharray="8 8"/><circle cx="218" cy="151" r="14" fill="#fff" stroke="#f0b74f" stroke-width="5"/><circle cx="538" cy="151" r="14" fill="#fff" stroke="#f0b74f" stroke-width="5"/><text x="81" y="55" fill="#cf4c42" font-size="16" font-weight="900">情绪会放大运动</text><text x="553" y="301" fill="#627285" font-size="14">先暂停，再复盘</text>
+  <text x="30" y="328" fill="#627285" font-size="12">Market Thinking · lesson 120 · psychology</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-labelledby="title desc">
+  <title id="title">第100课：连续亏损</title>
+  <desc id="desc">原创课程示意图，视觉类型：decision。</desc>
+  <rect width="800" height="340" rx="22" fill="#fbfcfd"/>
+  <g opacity=".14" stroke="#18324b" stroke-width="1"><path d="M30 52H770 M30 112H770 M30 172H770 M30 232H770 M30 292H770"/><path d="M90 28V316 M190 28V316 M290 28V316 M390 28V316 M490 28V316 M590 28V316 M690 28V316"/></g>
+  <circle cx="88" cy="170" r="23" fill="#172a3d"/><path d="M113 170H230M230 170L356 91M230 170L356 249M356 91H483M356 249H483" fill="none" stroke="#2f6df6" stroke-width="4" stroke-linecap="round"/><rect x="493" y="59" width="205" height="65" rx="14" fill="#e5f6f2"/><rect x="493" y="216" width="205" height="65" rx="14" fill="#fff0ec"/><text x="517" y="87" fill="#087b70" font-size="15" font-weight="900">过程合理</text><text x="517" y="109" fill="#627285" font-size="12">结果仍有随机性</text><text x="517" y="244" fill="#cf4c42" font-size="15" font-weight="900">过程失控</text><text x="517" y="266" fill="#627285" font-size="12">结果好也不可复制</text>
+  <text x="30" y="328" fill="#627285" font-size="12">Market Thinking · lesson 100 · decision</text>
+</svg>

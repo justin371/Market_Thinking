@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-labelledby="title desc">
+  <title id="title">第13课：内包K线与外包K线</title>
+  <desc id="desc">原创课程示意图，视觉类型：candle。</desc>
+  <rect width="800" height="340" rx="22" fill="#fbfcfd"/>
+  <g opacity=".14" stroke="#18324b" stroke-width="1"><path d="M30 52H770 M30 112H770 M30 172H770 M30 232H770 M30 292H770"/><path d="M90 28V316 M190 28V316 M290 28V316 M390 28V316 M490 28V316 M590 28V316 M690 28V316"/></g>
+  <path d="M90 254V72 M180 254V122 M270 254V52 M360 254V98 M450 254V140 M540 254V62 M630 254V105 M720 254V44" stroke="#5f7182" stroke-width="4" stroke-linecap="round"/><g><rect x="74" y="146" width="32" height="75" rx="5" fill="#e35d53"/><rect x="164" y="140" width="32" height="55" rx="5" fill="#149b8f"/><rect x="254" y="82" width="32" height="103" rx="5" fill="#149b8f"/><rect x="344" y="115" width="32" height="84" rx="5" fill="#e35d53"/><rect x="434" y="154" width="32" height="58" rx="5" fill="#e35d53"/><rect x="524" y="76" width="32" height="105" rx="5" fill="#149b8f"/><rect x="614" y="117" width="32" height="70" rx="5" fill="#e35d53"/><rect x="704" y="68" width="32" height="120" rx="5" fill="#149b8f"/></g><text x="36" y="38" fill="#2f6df6" font-size="17" font-weight="800">OPEN · HIGH · LOW · CLOSE</text>
+  <text x="30" y="328" fill="#627285" font-size="12">Market Thinking · lesson 13 · candle</text>
+</svg>

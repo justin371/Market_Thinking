@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-labelledby="title desc">
+  <title id="title">第18课：空头趋势</title>
+  <desc id="desc">原创课程示意图，视觉类型：structure。</desc>
+  <rect width="800" height="340" rx="22" fill="#fbfcfd"/>
+  <g opacity=".14" stroke="#18324b" stroke-width="1"><path d="M30 52H770 M30 112H770 M30 172H770 M30 232H770 M30 292H770"/><path d="M90 28V316 M190 28V316 M290 28V316 M390 28V316 M490 28V316 M590 28V316 M690 28V316"/></g>
+  <path d="M44 270L140 204L215 234L310 137L385 178L486 88L565 132L742 42" fill="none" stroke="#2f6df6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><g fill="#fff" stroke="#2f6df6" stroke-width="4"><circle cx="140" cy="204" r="9"/><circle cx="215" cy="234" r="9"/><circle cx="310" cy="137" r="9"/><circle cx="385" cy="178" r="9"/><circle cx="486" cy="88" r="9"/><circle cx="565" cy="132" r="9"/></g><g fill="#172a3d" font-size="16" font-weight="900"><text x="123" y="182">HH</text><text x="196" y="260">HL</text><text x="292" y="116">HH</text><text x="365" y="205">HL</text><text x="468" y="67">HH</text><text x="547" y="158">HL</text></g>
+  <text x="30" y="328" fill="#627285" font-size="12">Market Thinking · lesson 18 · structure</text>
+</svg>

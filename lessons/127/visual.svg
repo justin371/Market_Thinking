@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-labelledby="title desc">
+  <title id="title">第127课：学习中的回调</title>
+  <desc id="desc">原创课程示意图，视觉类型：queue。</desc>
+  <rect width="800" height="340" rx="22" fill="#fbfcfd"/>
+  <g opacity=".14" stroke="#18324b" stroke-width="1"><path d="M30 52H770 M30 112H770 M30 172H770 M30 232H770 M30 292H770"/><path d="M90 28V316 M190 28V316 M290 28V316 M390 28V316 M490 28V316 M590 28V316 M690 28V316"/></g>
+  <path d="M80 252H520" stroke="#172a3d" stroke-width="3"/><g fill="#2f6df6"><circle cx="120" cy="161" r="18"/><circle cx="188" cy="161" r="18"/><circle cx="256" cy="161" r="18"/><circle cx="324" cy="161" r="18"/></g><g fill="#eaf0ff"><path d="M101 188h38l17 64H84z"/><path d="M169 188h38l17 64h-72z"/><path d="M237 188h38l17 64h-72z"/><path d="M305 188h38l17 64h-72z"/></g><rect x="578" y="79" width="130" height="130" rx="18" fill="#fff5d8"/><path d="M608 156h70M643 122v68" stroke="#936319" stroke-width="7" stroke-linecap="round"/><text x="80" y="95" fill="#2f6df6" font-size="16" font-weight="900">需求集中</text><text x="575" y="240" fill="#936319" font-size="13" font-weight="900">供需找平衡</text>
+  <text x="30" y="328" fill="#627285" font-size="12">Market Thinking · lesson 127 · queue</text>
+</svg>

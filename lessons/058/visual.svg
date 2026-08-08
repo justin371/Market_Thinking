@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-labelledby="title desc">
+  <title id="title">第58课：开盘价与收盘价</title>
+  <desc id="desc">原创课程示意图，视觉类型：levels。</desc>
+  <rect width="800" height="340" rx="22" fill="#fbfcfd"/>
+  <g opacity=".14" stroke="#18324b" stroke-width="1"><path d="M30 52H770 M30 112H770 M30 172H770 M30 232H770 M30 292H770"/><path d="M90 28V316 M190 28V316 M290 28V316 M390 28V316 M490 28V316 M590 28V316 M690 28V316"/></g>
+  <path d="M50 244L144 179L218 214L306 132L392 168L487 92L560 126L742 64" fill="none" stroke="#2f6df6" stroke-width="7" stroke-linecap="round"/><path d="M48 210H726 M48 146H726 M48 90H726" stroke="#e35d53" stroke-width="3" stroke-dasharray="8 7" opacity=".8"/><text x="58" y="202" fill="#cf4c42" font-size="14" font-weight="900">支撑区</text><text x="58" y="138" fill="#cf4c42" font-size="14" font-weight="900">前高 / 压力区</text><text x="58" y="82" fill="#cf4c42" font-size="14" font-weight="900">关键位置</text>
+  <text x="30" y="328" fill="#627285" font-size="12">Market Thinking · lesson 58 · levels</text>
+</svg>

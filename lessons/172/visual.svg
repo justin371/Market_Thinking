@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-labelledby="title desc">
+  <title id="title">第172课：结业项目：解释一段市场</title>
+  <desc id="desc">原创课程示意图，视觉类型：capstone。</desc>
+  <rect width="800" height="340" rx="22" fill="#fbfcfd"/>
+  <g opacity=".14" stroke="#18324b" stroke-width="1"><path d="M30 52H770 M30 112H770 M30 172H770 M30 232H770 M30 292H770"/><path d="M90 28V316 M190 28V316 M290 28V316 M390 28V316 M490 28V316 M590 28V316 M690 28V316"/></g>
+  <path d="M78 250L170 198L258 224L352 143L448 174L548 99L726 67" fill="none" stroke="#2f6df6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="170" cy="198" r="12" fill="#fff" stroke="#e35d53" stroke-width="5"/><circle cx="352" cy="143" r="12" fill="#fff" stroke="#f0b74f" stroke-width="5"/><circle cx="548" cy="99" r="12" fill="#fff" stroke="#149b8f" stroke-width="5"/><rect x="82" y="58" width="166" height="46" rx="12" fill="#fff0ec"/><rect x="317" y="58" width="166" height="46" rx="12" fill="#fff5d8"/><rect x="552" y="58" width="166" height="46" rx="12" fill="#e5f6f2"/><text x="116" y="87" fill="#cf4c42" font-size="14" font-weight="900">观察</text><text x="351" y="87" fill="#936319" font-size="14" font-weight="900">判断</text><text x="586" y="87" fill="#087b70" font-size="14" font-weight="900">更新</text><text x="262" y="294" fill="#627285" font-size="14" font-weight="900">把价格行为变成终身学习方法</text>
+  <text x="30" y="328" fill="#627285" font-size="12">Market Thinking · lesson 172 · capstone</text>
+</svg>

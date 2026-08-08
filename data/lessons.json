@@ -1,0 +1,311 @@
+{
+  "version": 1,
+  "course": "Market Thinking / Price Action",
+  "age": "10-16",
+  "parts": [
+    {
+      "id": "intro",
+      "label": "导论",
+      "title": "为什么学习市场思维",
+      "kind": "mindset",
+      "units": [
+        { "title": "导论：为什么学习市场思维", "lessons": [
+          { "number": 1, "title": "市场不是赌场，也不是答案机器" },
+          { "number": 2, "title": "我们学习的不是“快速赚钱”" },
+          { "number": 3, "title": "事实、解释与观点" },
+          { "number": 4, "title": "概率世界与确定性世界" }
+        ] }
+      ]
+    },
+    {
+      "id": "charts",
+      "label": "第一部分",
+      "title": "认识价格与图表",
+      "kind": "price-action",
+      "units": [
+        { "title": "第一单元：价格是如何形成的", "lessons": [
+          { "number": 5, "title": "买方、卖方与成交" },
+          { "number": 6, "title": "竞价与拍卖" },
+          { "number": 7, "title": "时间、价格与成交量" },
+          { "number": 8, "title": "图表是一种压缩信息" }
+        ] },
+        { "title": "第二单元：认识K线", "lessons": [
+          { "number": 9, "title": "一根K线的四个价格" },
+          { "number": 10, "title": "多头K线与空头K线" },
+          { "number": 11, "title": "影线告诉了我们什么" },
+          { "number": 12, "title": "大K线与小K线" },
+          { "number": 13, "title": "内包K线与外包K线" },
+          { "number": 14, "title": "十字星与犹豫" },
+          { "number": 15, "title": "信号K线与入场K线" }
+        ] }
+      ]
+    },
+    {
+      "id": "core-price-action",
+      "label": "第二部分",
+      "title": "Price Action 的核心语言",
+      "kind": "price-action",
+      "units": [
+        { "title": "第三单元：市场的三种基本状态", "lessons": [
+          { "number": 16, "title": "趋势、震荡与突破" },
+          { "number": 17, "title": "多头趋势" },
+          { "number": 18, "title": "空头趋势" },
+          { "number": 19, "title": "震荡区间" },
+          { "number": 20, "title": "突破状态" },
+          { "number": 21, "title": "市场状态不是固定标签" }
+        ] },
+        { "title": "第四单元：趋势结构", "lessons": [
+          { "number": 22, "title": "高点与低点" },
+          { "number": 23, "title": "HH、HL、LH、LL" },
+          { "number": 24, "title": "趋势如何开始" },
+          { "number": 25, "title": "趋势如何延续" },
+          { "number": 26, "title": "趋势如何减弱" },
+          { "number": 27, "title": "结构破坏" },
+          { "number": 28, "title": "强趋势与弱趋势" },
+          { "number": 29, "title": "通道" },
+          { "number": 30, "title": "趋势线" }
+        ] },
+        { "title": "第五单元：回调", "lessons": [
+          { "number": 31, "title": "什么是回调" },
+          { "number": 32, "title": "浅回调与深回调" },
+          { "number": 33, "title": "一腿与两腿运动" },
+          { "number": 34, "title": "High 1 与 High 2" },
+          { "number": 35, "title": "Low 1 与 Low 2" },
+          { "number": 36, "title": "旗形" },
+          { "number": 37, "title": "小回调趋势" },
+          { "number": 38, "title": "大回调趋势" },
+          { "number": 39, "title": "回调结束了吗" }
+        ] },
+        { "title": "第六单元：突破与失败突破", "lessons": [
+          { "number": 40, "title": "什么是突破" },
+          { "number": 41, "title": "突破力度" },
+          { "number": 42, "title": "跟进的重要性" },
+          { "number": 43, "title": "突破回测" },
+          { "number": 44, "title": "假突破" },
+          { "number": 45, "title": "失败的失败" },
+          { "number": 46, "title": "突破模式" },
+          { "number": 47, "title": "Breakout Mode" },
+          { "number": 48, "title": "测量目标" }
+        ] },
+        { "title": "第七单元：震荡区间", "lessons": [
+          { "number": 49, "title": "区间为什么常见" },
+          { "number": 50, "title": "区间上沿与下沿" },
+          { "number": 51, "title": "区间中部" },
+          { "number": 52, "title": "区间内的趋势假象" },
+          { "number": 53, "title": "失败突破与反向运动" },
+          { "number": 54, "title": "宽区间与窄区间" },
+          { "number": 55, "title": "区间如何结束" }
+        ] }
+      ]
+    },
+    {
+      "id": "advanced-price-action",
+      "label": "第三部分",
+      "title": "进阶 Price Action",
+      "kind": "price-action",
+      "units": [
+        { "title": "第八单元：支撑、压力与关键位置", "lessons": [
+          { "number": 56, "title": "支撑和压力不是一条精确的线" },
+          { "number": 57, "title": "前高与前低" },
+          { "number": 58, "title": "开盘价与收盘价" },
+          { "number": 59, "title": "突破点" },
+          { "number": 60, "title": "均线" },
+          { "number": 61, "title": "整数关口" },
+          { "number": 62, "title": "多个因素重合" }
+        ] },
+        { "title": "第九单元：反转", "lessons": [
+          { "number": 63, "title": "回调与反转" },
+          { "number": 64, "title": "主要趋势反转" },
+          { "number": 65, "title": "双顶与双底" },
+          { "number": 66, "title": "头肩结构" },
+          { "number": 67, "title": "楔形反转" },
+          { "number": 68, "title": "抛物线楔形" },
+          { "number": 69, "title": "微型双顶与微型双底" },
+          { "number": 70, "title": "反转需要证据" }
+        ] },
+        { "title": "第十单元：市场周期", "lessons": [
+          { "number": 71, "title": "市场状态的循环" },
+          { "number": 72, "title": "从突破到趋势" },
+          { "number": 73, "title": "从趋势到通道" },
+          { "number": 74, "title": "从通道到区间" },
+          { "number": 75, "title": "从区间到新突破" },
+          { "number": 76, "title": "为什么周期无法精确划分" }
+        ] },
+        { "title": "第十一单元：多时间周期", "lessons": [
+          { "number": 77, "title": "同一市场，不同图表" },
+          { "number": 78, "title": "大周期背景" },
+          { "number": 79, "title": "小周期细节" },
+          { "number": 80, "title": "时间周期冲突" },
+          { "number": 81, "title": "自相似与尺度" }
+        ] },
+        { "title": "第十二单元：开盘、收盘与交易时段", "lessons": [
+          { "number": 82, "title": "为什么开盘波动较大" },
+          { "number": 83, "title": "趋势开盘" },
+          { "number": 84, "title": "区间开盘" },
+          { "number": 85, "title": "反转开盘" },
+          { "number": 86, "title": "开盘区间" },
+          { "number": 87, "title": "收盘的重要性" }
+        ] }
+      ]
+    },
+    {
+      "id": "decision",
+      "label": "第四部分",
+      "title": "概率、风险与决策",
+      "kind": "decision",
+      "units": [
+        { "title": "第十三单元：概率思维", "lessons": [
+          { "number": 88, "title": "市场没有100%的交易" },
+          { "number": 89, "title": "可能路径" },
+          { "number": 90, "title": "先验判断与新证据" },
+          { "number": 91, "title": "条件概率" },
+          { "number": 92, "title": "样本与统计陷阱" },
+          { "number": 93, "title": "期望值" },
+          { "number": 94, "title": "高胜率不一定更好" },
+          { "number": 95, "title": "低胜率也可能合理" }
+        ] },
+        { "title": "第十四单元：风险管理", "lessons": [
+          { "number": 96, "title": "什么是风险" },
+          { "number": 97, "title": "止损的本质" },
+          { "number": 98, "title": "仓位大小" },
+          { "number": 99, "title": "风险收益比" },
+          { "number": 100, "title": "连续亏损" },
+          { "number": 101, "title": "最大回撤" },
+          { "number": 102, "title": "不交易也是一种选择" },
+          { "number": 103, "title": "风险边界" }
+        ] },
+        { "title": "第十五单元：决策质量", "lessons": [
+          { "number": 104, "title": "好结果不代表好决策" },
+          { "number": 105, "title": "判断、执行与结果" },
+          { "number": 106, "title": "证据强度" },
+          { "number": 107, "title": "什么会证明我错了" },
+          { "number": 108, "title": "决策树" },
+          { "number": 109, "title": "机会成本" },
+          { "number": 110, "title": "可逆与不可逆决策" }
+        ] }
+      ]
+    },
+    {
+      "id": "psychology",
+      "label": "第五部分",
+      "title": "市场心理与群体行为",
+      "kind": "psychology",
+      "units": [
+        { "title": "第十六单元：情绪", "lessons": [
+          { "number": 111, "title": "恐惧与贪婪" },
+          { "number": 112, "title": "害怕错过" },
+          { "number": 113, "title": "不愿承认错误" },
+          { "number": 114, "title": "过度自信" },
+          { "number": 115, "title": "报复性决策" },
+          { "number": 116, "title": "无聊与过度交易" }
+        ] },
+        { "title": "第十七单元：群体行为", "lessons": [
+          { "number": 117, "title": "羊群效应" },
+          { "number": 118, "title": "共识与拥挤" },
+          { "number": 119, "title": "泡沫" },
+          { "number": 120, "title": "恐慌" },
+          { "number": 121, "title": "叙事" },
+          { "number": 122, "title": "反身性" }
+        ] }
+      ]
+    },
+    {
+      "id": "transfer",
+      "label": "第六部分",
+      "title": "从图表迁移到现实世界",
+      "kind": "transfer",
+      "units": [
+        { "title": "第十八单元：生活中的市场思维", "lessons": [
+          { "number": 123, "title": "排队与供需" },
+          { "number": 124, "title": "打折与价格锚点" },
+          { "number": 125, "title": "游戏中的概率" },
+          { "number": 126, "title": "体育比赛中的趋势" },
+          { "number": 127, "title": "学习中的回调" },
+          { "number": 128, "title": "人际关系中的证据" }
+        ] },
+        { "title": "第十九单元：历史中的市场思维", "lessons": [
+          { "number": 129, "title": "郁金香泡沫" },
+          { "number": 130, "title": "南海泡沫" },
+          { "number": 131, "title": "1929年股市崩盘" },
+          { "number": 132, "title": "互联网泡沫" },
+          { "number": 133, "title": "2008年金融危机" },
+          { "number": 134, "title": "2020年全球市场冲击" },
+          { "number": 135, "title": "历史不会简单重复" }
+        ] },
+        { "title": "第二十单元：商业与创新", "lessons": [
+          { "number": 136, "title": "好产品不一定是好投资" },
+          { "number": 137, "title": "公司如何创造价值" },
+          { "number": 138, "title": "增长与预期" },
+          { "number": 139, "title": "竞争优势" },
+          { "number": 140, "title": "创新者的风险" },
+          { "number": 141, "title": "长期主义" }
+        ] }
+      ]
+    },
+    {
+      "id": "ai-research",
+      "label": "第七部分",
+      "title": "AI协作与研究方法",
+      "kind": "ai",
+      "units": [
+        { "title": "第二十一单元：如何使用AI", "lessons": [
+          { "number": 142, "title": "AI不是答案机器" },
+          { "number": 143, "title": "如何提出好问题" },
+          { "number": 144, "title": "让AI提出多个情景" },
+          { "number": 145, "title": "让AI反驳自己" },
+          { "number": 146, "title": "核对AI提供的信息" },
+          { "number": 147, "title": "AI辅助图表复盘" },
+          { "number": 148, "title": "AI协作日志" }
+        ] },
+        { "title": "第二十二单元：研究与复盘", "lessons": [
+          { "number": 149, "title": "如何记录一次判断" },
+          { "number": 150, "title": "截图复盘" },
+          { "number": 151, "title": "案例库" },
+          { "number": 152, "title": "错误分类" },
+          { "number": 153, "title": "怎样评价自己的进步" },
+          { "number": 154, "title": "建立个人检查表" }
+        ] }
+      ]
+    },
+    {
+      "id": "projects",
+      "label": "第八部分",
+      "title": "综合项目",
+      "kind": "projects",
+      "units": [
+        { "title": "第二十三单元：图表推理项目", "lessons": [
+          { "number": 155, "title": "一张陌生图表" },
+          { "number": 156, "title": "趋势案例研究" },
+          { "number": 157, "title": "区间案例研究" },
+          { "number": 158, "title": "突破案例研究" },
+          { "number": 159, "title": "反转案例研究" },
+          { "number": 160, "title": "多时间周期案例" }
+        ] },
+        { "title": "第二十四单元：跨学科项目", "lessons": [
+          { "number": 161, "title": "用 Price Action 思维分析一场足球比赛" },
+          { "number": 162, "title": "用市场周期分析一个流行趋势" },
+          { "number": 163, "title": "用风险思维设计一次旅行" },
+          { "number": 164, "title": "用概率思维制定学习计划" },
+          { "number": 165, "title": "用市场思维研究一个历史事件" },
+          { "number": 166, "title": "用AI完成一次独立研究" }
+        ] }
+      ]
+    },
+    {
+      "id": "lifelong",
+      "label": "第九部分",
+      "title": "结业与长期学习",
+      "kind": "lifelong",
+      "units": [
+        { "title": "第二十五单元：形成自己的思维系统", "lessons": [
+          { "number": 167, "title": "我的市场观察框架" },
+          { "number": 168, "title": "我的常见认知错误" },
+          { "number": 169, "title": "我的风险原则" },
+          { "number": 170, "title": "我的AI协作原则" },
+          { "number": 171, "title": "我的终身学习系统" },
+          { "number": 172, "title": "结业项目：解释一段市场" }
+        ] }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-labelledby="title desc">
+  <title id="title">第44课：假突破</title>
+  <desc id="desc">原创课程示意图，视觉类型：breakout。</desc>
+  <rect width="800" height="340" rx="22" fill="#fbfcfd"/>
+  <g opacity=".14" stroke="#18324b" stroke-width="1"><path d="M30 52H770 M30 112H770 M30 172H770 M30 232H770 M30 292H770"/><path d="M90 28V316 M190 28V316 M290 28V316 M390 28V316 M490 28V316 M590 28V316 M690 28V316"/></g>
+  <rect x="82" y="93" width="392" height="142" rx="12" fill="#eaf0ff" stroke="#2f6df6" stroke-width="3" stroke-dasharray="9 8"/><path d="M98 178L150 146L202 191L256 130L308 180L368 119L426 173L500 77L570 107L642 75L740 121" fill="none" stroke="#2f6df6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M484 235L530 206L563 237L593 284" fill="none" stroke="#e35d53" stroke-width="7" stroke-linecap="round"/><text x="105" y="122" fill="#2f6df6" font-size="15" font-weight="900">旧区间</text><text x="507" y="57" fill="#108b7f" font-size="15" font-weight="900">突破</text><text x="608" y="307" fill="#cf4c42" font-size="15" font-weight="900">失败</text>
+  <text x="30" y="328" fill="#627285" font-size="12">Market Thinking · lesson 44 · breakout</text>
+</svg>

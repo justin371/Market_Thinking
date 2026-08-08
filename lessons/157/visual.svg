@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-labelledby="title desc">
+  <title id="title">第157课：区间案例研究</title>
+  <desc id="desc">原创课程示意图，视觉类型：unknown。</desc>
+  <rect width="800" height="340" rx="22" fill="#fbfcfd"/>
+  <g opacity=".14" stroke="#18324b" stroke-width="1"><path d="M30 52H770 M30 112H770 M30 172H770 M30 232H770 M30 292H770"/><path d="M90 28V316 M190 28V316 M290 28V316 M390 28V316 M490 28V316 M590 28V316 M690 28V316"/></g>
+  <path d="M52 253L128 207L177 228L245 140L308 177L378 124L431 194L503 80L568 115L646 68L748 104" fill="none" stroke="#2f6df6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="245" cy="140" r="16" fill="#fff" stroke="#e35d53" stroke-width="5"/><text x="239" y="146" fill="#cf4c42" font-size="17" font-weight="900">?</text><circle cx="503" cy="80" r="16" fill="#fff" stroke="#f0b74f" stroke-width="5"/><text x="497" y="86" fill="#936319" font-size="17" font-weight="900">?</text><text x="54" y="307" fill="#627285" font-size="14">先描述 · 再判断 · 最后提出可证伪路径</text>
+  <text x="30" y="328" fill="#627285" font-size="12">Market Thinking · lesson 157 · unknown</text>
+</svg>

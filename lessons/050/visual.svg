@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-labelledby="title desc">
+  <title id="title">第50课：区间上沿与下沿</title>
+  <desc id="desc">原创课程示意图，视觉类型：range。</desc>
+  <rect width="800" height="340" rx="22" fill="#fbfcfd"/>
+  <g opacity=".14" stroke="#18324b" stroke-width="1"><path d="M30 52H770 M30 112H770 M30 172H770 M30 232H770 M30 292H770"/><path d="M90 28V316 M190 28V316 M290 28V316 M390 28V316 M490 28V316 M590 28V316 M690 28V316"/></g>
+  <rect x="70" y="86" width="580" height="176" rx="14" fill="#fff5d8" stroke="#d29a34" stroke-width="3" stroke-dasharray="8 7"/><path d="M47 238L101 165L150 205L199 126L244 189L292 152L341 219L389 132L438 190L485 118L532 206L581 145L633 194L684 112L748 162" fill="none" stroke="#d29a34" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><path d="M70 174H650 M70 174L56 165 M70 174L56 183 M650 174L664 165 M650 174L664 183" fill="none" stroke="#e35d53" stroke-width="3"/><text x="94" y="116" fill="#936319" font-size="16" font-weight="900">上沿</text><text x="94" y="250" fill="#936319" font-size="16" font-weight="900">下沿</text><text x="296" y="182" fill="#cf4c42" font-size="15" font-weight="900">中部：信息最混乱</text>
+  <text x="30" y="328" fill="#627285" font-size="12">Market Thinking · lesson 50 · range</text>
+</svg>

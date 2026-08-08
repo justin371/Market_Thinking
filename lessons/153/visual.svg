@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-labelledby="title desc">
+  <title id="title">第153课：怎样评价自己的进步</title>
+  <desc id="desc">原创课程示意图，视觉类型：ai。</desc>
+  <rect width="800" height="340" rx="22" fill="#fbfcfd"/>
+  <g opacity=".14" stroke="#18324b" stroke-width="1"><path d="M30 52H770 M30 112H770 M30 172H770 M30 232H770 M30 292H770"/><path d="M90 28V316 M190 28V316 M290 28V316 M390 28V316 M490 28V316 M590 28V316 M690 28V316"/></g>
+  <rect x="58" y="55" width="390" height="75" rx="18" fill="#eaf0ff"/><rect x="315" y="168" width="390" height="75" rx="18" fill="#172a3d"/><circle cx="90" cy="93" r="13" fill="#2f6df6"/><circle cx="346" cy="206" r="13" fill="#e35d53"/><text x="120" y="90" fill="#172a3d" font-size="15" font-weight="800">请列出三个可能路径</text><text x="120" y="113" fill="#627285" font-size="12">证据、反例、下一步</text><text x="375" y="203" fill="#fff" font-size="15" font-weight="800">哪个证据会推翻你？</text><text x="375" y="226" fill="#b8c8d8" font-size="12">答案需要核对来源和日期</text><path d="M205 150H548" stroke="#f0b74f" stroke-width="4" stroke-dasharray="8 9"/><text x="299" y="145" fill="#936319" font-size="13" font-weight="900">讨论 → 核验 → 更新</text>
+  <text x="30" y="328" fill="#627285" font-size="12">Market Thinking · lesson 153 · ai</text>
+</svg>

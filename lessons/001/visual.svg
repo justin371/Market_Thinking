@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-labelledby="title desc">
+  <title id="title">第1课：市场不是赌场，也不是答案机器</title>
+  <desc id="desc">原创课程示意图，视觉类型：market。</desc>
+  <rect width="800" height="340" rx="22" fill="#fbfcfd"/>
+  <g opacity=".14" stroke="#18324b" stroke-width="1"><path d="M30 52H770 M30 112H770 M30 172H770 M30 232H770 M30 292H770"/><path d="M90 28V316 M190 28V316 M290 28V316 M390 28V316 M490 28V316 M590 28V316 M690 28V316"/></g>
+  <circle cx="124" cy="170" r="51" fill="#eaf0ff" stroke="#2f6df6" stroke-width="4"/><circle cx="654" cy="170" r="51" fill="#fff0ec" stroke="#e35d53" stroke-width="4"/><path d="M176 170H602M602 170L578 155M602 170L578 185" stroke="#f0b74f" stroke-width="5" stroke-linecap="round"/><path d="M320 245L384 195L438 216L520 96L742 82" fill="none" stroke="#149b8f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><text x="81" y="176" fill="#2f6df6" font-size="17" font-weight="900">需求</text><text x="607" y="176" fill="#cf4c42" font-size="17" font-weight="900">供给</text><text x="328" y="282" fill="#087b70" font-size="15" font-weight="900">成交 · 价格 · 新证据</text>
+  <text x="30" y="328" fill="#627285" font-size="12">Market Thinking · lesson 1 · market</text>
+</svg>

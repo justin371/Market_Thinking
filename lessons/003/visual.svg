@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-labelledby="title desc">
+  <title id="title">第3课：事实、解释与观点</title>
+  <desc id="desc">原创课程示意图，视觉类型：evidence。</desc>
+  <rect width="800" height="340" rx="22" fill="#fbfcfd"/>
+  <g opacity=".14" stroke="#18324b" stroke-width="1"><path d="M30 52H770 M30 112H770 M30 172H770 M30 232H770 M30 292H770"/><path d="M90 28V316 M190 28V316 M290 28V316 M390 28V316 M490 28V316 M590 28V316 M690 28V316"/></g>
+  <rect x="72" y="74" width="280" height="194" rx="17" fill="#eaf0ff" stroke="#2f6df6" stroke-width="3"/><rect x="408" y="74" width="280" height="194" rx="17" fill="#fff5d8" stroke="#d49a31" stroke-width="3"/><path d="M112 129H306M112 168H278M112 207H238" stroke="#627285" stroke-width="8" stroke-linecap="round"/><path d="M450 129L486 165L548 101" fill="none" stroke="#149b8f" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/><circle cx="594" cy="211" r="25" fill="#fff" stroke="#e35d53" stroke-width="6"/><path d="M612 229L650 267" stroke="#e35d53" stroke-width="9" stroke-linecap="round"/><text x="105" y="51" fill="#2f6df6" font-size="15" font-weight="900">事实</text><text x="438" y="51" fill="#936319" font-size="15" font-weight="900">解释 · 需要核验</text>
+  <text x="30" y="328" fill="#627285" font-size="12">Market Thinking · lesson 3 · evidence</text>
+</svg>

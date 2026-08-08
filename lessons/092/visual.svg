@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-labelledby="title desc">
+  <title id="title">第92课：样本与统计陷阱</title>
+  <desc id="desc">原创课程示意图，视觉类型：paths。</desc>
+  <rect width="800" height="340" rx="22" fill="#fbfcfd"/>
+  <g opacity=".14" stroke="#18324b" stroke-width="1"><path d="M30 52H770 M30 112H770 M30 172H770 M30 232H770 M30 292H770"/><path d="M90 28V316 M190 28V316 M290 28V316 M390 28V316 M490 28V316 M590 28V316 M690 28V316"/></g>
+  <circle cx="88" cy="170" r="20" fill="#172a3d"/><path d="M112 170H242M242 170L382 89M242 170L382 170M242 170L382 251" fill="none" stroke="#2f6df6" stroke-width="4" stroke-linecap="round"/><rect x="405" y="55" width="270" height="60" rx="14" fill="#e5f6f2"/><rect x="405" y="140" width="270" height="60" rx="14" fill="#eaf0ff"/><rect x="405" y="225" width="270" height="60" rx="14" fill="#fff0ec"/><text x="433" y="91" fill="#087b70" font-size="16" font-weight="900">上涨 · 跟进</text><text x="433" y="176" fill="#2f6df6" font-size="16" font-weight="900">震荡 · 等待</text><text x="433" y="261" fill="#cf4c42" font-size="16" font-weight="900">下跌 · 失效</text>
+  <text x="30" y="328" fill="#627285" font-size="12">Market Thinking · lesson 92 · paths</text>
+</svg>
